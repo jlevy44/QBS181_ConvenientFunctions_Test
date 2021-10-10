@@ -1,0 +1,15 @@
+Package: conveniencefunctions
+Type: Package
+Title: Convenience functions for R for QBS181.
+Version: 0.1.0
+Author: Joshua Levy
+Authors@R: person("Joshua", "Levy", email="joshua.j.levy@dartmouth.edu", role=c('aut','cre'))
+Description: We provide general utilities for common tasks in the R programming language.
+License: MIT
+Depends: R (>= 3.5.0)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    stats,
+    ggplot2
+RoxygenNote: 7.1.0
